@@ -9,7 +9,7 @@ const Home = () => {
     const [state, setstate] = useState(false)
     let data=JSON.parse( localStorage.getItem('user-info'))
     console.log(data,"data");
-    const history = useHistory();
+    const history = useHistory(); 
     function clear(){
         // localStorage.clear()
         // history.push("/")

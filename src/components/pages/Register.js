@@ -34,7 +34,7 @@ function Register() {
     //  const allValidation={};
      let isValid =true;
      if(!name){
-        nameErr.namereq = "Name is required";
+        nameErr.namereq ="Name is required";
         isValid = false;
     }
      if(!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)){
@@ -43,15 +43,15 @@ function Register() {
      }
           
      if(!password){
-         passwordErr.passwordreq = "password is required";
+         passwordErr.passwordreq = "password is required";  
          isValid = false;
      }
      if(!number){
-        numberErr.numberreq = "password is required";
+        numberErr.numberreq = "password is the required";
         isValid = false;
     }
                   setNamedErr(nameErr);
-                  setEmailErr(emailErr);
+                  setEmailErr(emailErr); 
                  setPasswordErr(passwordErr);
                  setNumberErr(numberErr);
 
