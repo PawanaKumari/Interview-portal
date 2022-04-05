@@ -83,7 +83,7 @@ function UpdatePassword() {
             // console.log("selector 2",selector);
         }
     }
-
+ 
 
     return (
     <div className="container-fluid h-100"> 
